@@ -5,7 +5,6 @@ def fixed_width_parser_to_csv(spec_file, input_file, output_file):
 
     # Read field specifications
     field_spec = read_spec(spec_file)
-    print(field_spec)
     includeHeaders = field_spec["IncludeHeader"]
 
     # Parse the fixed-width file
@@ -26,7 +25,7 @@ def fixed_width_parser_to_csv(spec_file, input_file, output_file):
         write_csv(output_file, rows)
     else:
         write_csv(output_file, rows, field_spec["ColumnNames"] )
-    print(f"Parsed CSV is saved at: {output_file}")
+    print(f"Parsed CSV is saved")
 
     return rows
 
