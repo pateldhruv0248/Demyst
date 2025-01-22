@@ -63,3 +63,9 @@
     ```sh
     docker run -v $(pwd)/docker_output:/app/Demyst/output_files --workdir /app/Demyst fixed-width-parser
     ```
+
+    For Power Shell
+
+    ```sh
+    docker run -v ${pwd}/docker_output:/app/Demyst/output_files --workdir /app/Demyst fixed-width-parser
+    ```
