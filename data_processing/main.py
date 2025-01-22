@@ -9,4 +9,4 @@ if __name__ == "__main__":
     
     # For very large datasets
     print("Processing with Spark...")
-    anonymize_with_spark('large_data.csv', 'anonymized_spark.csv')
+    anonymize_with_spark('large_csv_data.csv', 'anonymized_spark.csv')
