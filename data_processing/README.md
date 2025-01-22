@@ -9,6 +9,7 @@
 - Generate a large CSV file with  first_name, last_name, address, date_of_birth using chunks where size of chunks can be changed.
 - Using PySpark, this large file is converted into smaller chunks of CSV files using distributed technology.
 - The data is anionymized using SHA256
+- Large CSV data sets are handled in gitignore
 
 ## Instructions
 

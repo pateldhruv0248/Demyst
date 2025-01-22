@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#large csv files
+large_csv_data.csv
+large_original_data.csv
+anonymized_spark.csv/*
+anonymized_spark.csv/
