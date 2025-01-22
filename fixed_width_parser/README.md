@@ -28,12 +28,12 @@
 
 1. Navigate to the project directory:
     ```sh
-    cd Demyst/
+    cd Demyst/fixed_width_parser
     ```
 
 2. Run the parser using the following command:
     ```sh
-    python -m fixed_width_parser.src.main
+    python -m src.main
     ```
 
 ### Running the Tests
@@ -46,4 +46,20 @@
 2. Run the parser using the following command:
     ```sh
     python -m unittest fixed_width_parser.tests.test_parser
+    ```
+
+### Use Docker Image
+
+1. Navigate to the parser directory with Dockerfile:
+    ```sh
+    cd Demyst/fixed_width_parser
+    ```
+
+2. Build docker container:
+    ```sh
+    docker build -t fixed-width-parser .
+    ```
+3. Run docker container (The output CSV file will be stored in docker_output in your current directory):
+    ```sh
+    docker run -v $(pwd)/docker_output:/app/Demyst/output_files --workdir /app/Demyst fixed-width-parser
     ```
