@@ -18,6 +18,8 @@
 1. Ensure you have [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) installed on your machine.
 2. Ensure Python 3.10 is available in Conda.
 
+Note: This program has been developed and tested over MacOS, Windows machines might need [Apche Hadoop](https://hadoop.apache.org/)
+
 ### Setting Up the Environment
 
 1. Navigate to the project directory:
