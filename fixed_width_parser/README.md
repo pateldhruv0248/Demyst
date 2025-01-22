@@ -13,10 +13,10 @@
 
 ## Points to be noted
 
-- The fixed width file was generated manually using the spec.json file provided. It is stored in the input_files/data.txt
-- The output is a CSV file for the given data.txt file stored in output_files/csv_file.csv
-- Empty rows in fixed width file are retained in CSV file as well
-- Special operators like '(single quotes), "(double quotes), ,(comma) etc are preserved in CSV file
+- The fixed width file was generated manually using the spec.json file provided and it is stored in the input_files/fixed-width-file.txt.
+- The output is a CSV file for the given fixed-width-file.txt file stored in output_files/csv_file.csv.
+- Empty rows in fixed width file are retained in CSV file as well.
+- Special operators like '(single quotes), "(double quotes), ,(comma) etc are preserved in CSV file.
 - There is already a sample_output.csv file placed manually in the output_files. Exact same file (csv_file.csv) will be generated after executing the program.
 
 ## Instructions
